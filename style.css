@@ -1,0 +1,9 @@
+body {
+  width: 60vw;
+  margin: 5vh auto;
+}
+
+#profile {
+  width: 10vw;
+  border-radius: 50%;
+}
