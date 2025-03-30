@@ -3,7 +3,41 @@ body {
   margin: 5vh auto;
 }
 
+a {
+  text-decoration: none;
+  color: dodgerblue;
+  transition: 0.4s;
+}
+a:hover {
+  color: rgb(151, 122, 255);
+}
+
+.icon {
+  width: 1rem;
+  vertical-align: middle;
+}
+
+.multiline-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #profile {
   width: 10vw;
   border-radius: 50%;
+}
+
+#cesco {
+  transition: 0.4s;
+}
+#cesco:hover {
+  background: linear-gradient(90deg, #00ffbf, #00f7ff, #0077ff, #7700ff);
+  background-clip: text;
+  color: transparent;
+  transition: 0.4s;
+}
+
+#cesco img.icon {
+  width: 3rem;
+  vertical-align: bottom;
 }
